@@ -592,6 +592,9 @@ html {
   .back-foto .container .text-hero {
     width: 100%;
   }
+  .back-foto .container .text-hero .btn-margeen {
+    margin: auto;
+  }
   .back-foto .container .text-hero h1 {
     font-size: 30px;
   }
@@ -655,9 +658,18 @@ html {
   min-width: 24.5%;
   scroll-snap-align: start;
 }
-@media (min-width: 360px) and (max-width:500px) {
+@media (min-width: 360px) and (max-width: 500px) {
   .promo-item {
     min-width: 100%;
   }
 }
-@media (min-width: 360px) and (max-width:500px)
+@media (min-width: 501px) and (max-width: 768px) {
+  .promo-item {
+    min-width: 50%;
+  }
+}
+@media (min-width: 769px) and (max-width: 989px) {
+  .promo-item {
+    min-width: 33%;
+  }
+}
