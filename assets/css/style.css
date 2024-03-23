@@ -673,3 +673,60 @@ html {
     min-width: 33%;
   }
 }
+
+
+.Burger-order{
+  display: flex;
+align-items: center;
+justify-content:space-around;
+padding:10VH 25VH 10VH;
+
+width: 70%;
+.photo{
+  width: 35%;
+}
+.abuote-order{
+  width: 35%;
+  h2{
+      font-size: 40px;
+  } 
+  span{
+      font-size: 40px;
+      color: darkorange;
+  }
+  p{
+      font-size: 16px ;
+      color: rgba(0, 0, 0, 0.507);
+      font-family: sans-serif;
+      /* height: 40px; */
+      margin-top: 1vh;
+      margin-bottom: 2vh;
+  }
+  h4{
+      font-size: 25px;
+      height: 40px;
+      margin-top: 1vh;
+
+  }
+  i{
+      font-size: 15px;
+      padding: 3px;
+      border-radius: 50%;
+      background-color: orange;
+      color: azure;
+  }
+  button{
+      width: 120px;
+      height: 40px;
+      margin-top: 2vh;
+      background-color: orange;
+      color: white;
+      border: 0;
+      &:hover{
+          background-color: black;
+          transition: 1s;
+      }
+
+  }
+}
+}
