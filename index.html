@@ -15,11 +15,14 @@
     />
   </head>
   <body>
+    <!-- loader -->
+    <div class="bg-loader"><span class="loader"></span></div>
+    <!-- ================================================================================ -->
     <!-- Return buttons -->
     <button class="btn-back">
       <i class="fa-solid fa-chevron-up"></i>
     </button>
-
+<!-- =========================================================================================== -->
     <header class="header">
       <div class="container">
         <h1>Foodie</h1>
@@ -44,7 +47,7 @@
 
         <div class="ptn-sersh">
           <i class="fa-solid fa-magnifying-glass"></i>
-          <button class="btn btn-hover">Reservation</button>
+          <button class="btn btn-hover btn-none">Reservation</button>
           <button class="nav-toggle-btn">
             <span class="line top"></span>
             <span class="line middle"></span>
@@ -293,34 +296,40 @@
     </section>
     <!-- ========================================================================================== -->
     <!-- About us baner  -->
-    <div class="container">
-      <div class="Burger-order" id="aboutus">
-        <div class="photo">
-          <img src="assets/images/about-banner.png" alt="" />
-          <div class="sale-shape scale-up-anim">
-            <img src="assets/images/sale-shape-red.png" alt="" />
+    <section class="section-divider gray">
+      <div class="container">
+        <div class="Burger-order" id="aboutus">
+          <div class="photo">
+            <img src="assets/images/about-banner.png" alt="" />
+            <div class="sale-shape scale-up-anim">
+              <img src="assets/images/sale-shape-red.png" alt="" />
+            </div>
           </div>
-        </div>
-        <div class="abuote-order">
-          <h2>Caferio, Burgers, and Best Pizzas <span>in Town!</span></h2>
-          <p>
-            The restaurants in Hangzhou also catered to many northern Chinese
-            who had fled south from Kaifeng during the Jurchen invasion of the
-            1120s, while it is also known that many restaurants were run by
-            families.
-          </p>
-          <div class="icon-h4">
-            <h4><i class="fa-solid fa-check"></i>Delicious & Healthy Foods</h4>
-            <h4>
-              <i class="fa-solid fa-check"></i>Spacific Family And Kids Zone
-            </h4>
-            <h4><i class="fa-solid fa-check"></i>Music & Other Facilities</h4>
-            <h4><i class="fa-solid fa-check"></i>Fastest Food Home Delivery</h4>
+          <div class="abuote-order">
+            <h2>Caferio, Burgers, and Best Pizzas <span>in Town!</span></h2>
+            <p>
+              The restaurants in Hangzhou also catered to many northern Chinese
+              who had fled south from Kaifeng during the Jurchen invasion of the
+              1120s, while it is also known that many restaurants were run by
+              families.
+            </p>
+            <div class="icon-h4">
+              <h4>
+                <i class="fa-solid fa-check"></i>Delicious & Healthy Foods
+              </h4>
+              <h4>
+                <i class="fa-solid fa-check"></i>Spacific Family And Kids Zone
+              </h4>
+              <h4><i class="fa-solid fa-check"></i>Music & Other Facilities</h4>
+              <h4>
+                <i class="fa-solid fa-check"></i>Fastest Food Home Delivery
+              </h4>
+            </div>
+            <button class="btnmin btn btn-hover">Order Now</button>
           </div>
-          <button class="btnmin btn btn-hover">Order Now</button>
         </div>
       </div>
-    </div>
+    </section>
     <!-- ========================================================================== -->
     <!-- Foode Menu  -->
     <section class="sc">
@@ -332,52 +341,22 @@
             >Food is any substance consumed to provide nutritional support for
             an organism.</small
           >
-          <br/>
+          <br />
           <div class="min-cards">
-            <div class="min-card">All</div>
-            <div class="min-card">pezza</div>
-            <div class="min-card">Burger</div>
-            <div class="min-card">Drinks</div>
-            <div class="min-card">sandwitch</div>
+            <span class="min-card">All</span>
+            <span class="min-card">pezza</span>
+            <span class="min-card">Burger</span>
+            <span class="min-card">Drinks</span>
+            <span class="min-card">sandwitch</span>
           </div>
           <div class="menue-cards">
-            <div class="card">
-              <div class="red">-15%</div>
-              <div class="img-card">
-                <button class="btn2">Order now</button>
-                <img src="assets/images/IMG-20240321-WA0013.jpg" alt="" />
-              </div>
-
-              <div class="text-card">
-                <div class="reting">
-                  <p class="r-p">Chicken</p>
-                  <span class="ico">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </span>
-                </div>
-                <h3>Bell Burrito Supreme</h3>
-
-                <h5>
-                  <span class="price">PRICE:</span>
-                  <span class="sp1">$59.00</span><span class="smo">$69.00</span>
-                </h5>
-              </div>
-            </div>
+            <div class="menu-card-row has-scrollbar-card"></div>
+            <div class="menue-card-row2 has-scrollbar-card"></div>
           </div>
         </div>
       </div>
     </section>
-
-
-
-
-
-
-
+    <!-- =============================================================================== -->
     <!-- Quality burgers -->
     <div class="quality-burgers section-divider white">
       <div class="container">
@@ -559,7 +538,7 @@
             <span>Tuesday 4PM: Till Mid Night</span>
             <span>Saturday: 10:00-16:00</span>
           </div>
-          <form class="footer-form"  id="contactus">
+          <form class="footer-form" id="contactus">
             <div class="inputs">
               <input class="input" type="text" placeholder="Your Name" />
               <input class="input" type="email" placeholder="Email" />
