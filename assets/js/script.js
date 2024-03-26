@@ -17,9 +17,11 @@ window.addEventListener("scroll", function () {
 
 let BtnBack = document.querySelector(".btn-back");
 BtnBack.addEventListener("click", function () {
-  if (scrollY > 0) {
-    scrollTo(window);
-  }
+  scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
 });
 
 let DeliveryBoy = document.querySelector("[data-delivery-boy]");
