@@ -124,6 +124,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.6;
   overflow-x: hidden;
+  /* overflow: hidden; */
 }
 
 body.active {
@@ -586,6 +587,9 @@ html {
   }
 }
 @media (max-width: 550px) {
+  .header .container {
+    justify-content: none;
+  }
   .btn-none {
     display: none;
   }
