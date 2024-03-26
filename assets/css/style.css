@@ -823,6 +823,153 @@ html {
 }
 /* large */
 /* ================================================================================ */
+/* foode Menu  */
+.red {
+  width: 60px;
+  /* height: 20px; */
+  background-color: rgb(250, 20, 20);
+  position: absolute;
+  padding: 5px 0px;
+  left: 30px;
+  top: 40px;
+  color: antiquewhite;
+  font-size: 15px;
+  text-align: center;
+}
+.sc {
+  background-color: rgb(247, 242, 236);
+
+  .Deliciouss {
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    p {
+      color: rgb(216, 13, 13);
+      font-size: 20px;
+    }
+    h2 {
+      font-size: 40px;
+    }
+    .fo {
+      color: darkorange;
+    }
+    small {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    .min-cards {
+      display: flex;
+      margin-top: 20px;
+      height: 30px;
+      gap: 10px;
+    }
+    .min-card {
+      background-color: white;
+      color: black;
+      width: 100px;
+
+      font-size: 20px;
+    }
+    .menue-cards {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .card {
+      position: relative;
+      width: 40%;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0px;
+      padding-top: 100px;
+      text-align: start;
+      .img-card {
+        width: 70%;
+        margin-bottom: 50px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .reting {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+      /* text-align:start; */
+      /* margin-left: 40px; */
+
+      i {
+        color: rgb(247, 146, 13);
+      }
+      .r-p {
+        color: rgb(136, 135, 135);
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.text-card {
+  text-align: start;
+}
+
+h5 {
+  display: flex;
+  text-align: start;
+  align-items: start;
+
+  gap: 5px;
+
+  .price {
+    color: brown !important;
+    font-size: 20px;
+  }
+  .sp1 {
+    color: chocolate;
+    font-size: 20px;
+  }
+  .smo {
+    color: rgb(184, 177, 177);
+    font-size: 20px;
+    /* padding-top: 30px; */
+  }
+}
+
+h3 {
+  align-items: start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.img-card {
+  position: relative;
+  overflow: hidden;
+  &:hover {
+    .btn2 {
+      bottom: 100px;
+      opacity: 1;
+    }
+  }
+  .btn2 {
+    position: absolute;
+    background-color: chocolate;
+
+    bottom: -30px;
+    left: 30%;
+    transition: 1s;
+    opacity: 0;
+  }
+}
+
+
 /* Quality burgers */
 .quality-burgers {
   background-image: url("../images/hero-bg.jpg");
